@@ -1,0 +1,40 @@
+# PZDragons Plugin Configuration
+
+# Dragon Settings
+dragon:
+  health: 100
+  speed: 1.0
+  damage: 10
+
+# Wave Settings
+wave:
+  timeLimit: 300        # Time limit for each wave (in seconds)
+  dragonCount: 5        # Number of dragons to spawn per wave
+
+# Ability Settings
+abilities:
+  leap:
+    cost: 10            # Points required to use Leap ability
+    cooldown: 20        # Cooldown in seconds
+  shield:
+    cost: 15
+    cooldown: 25
+  teleport:
+    cost: 20
+    cooldown: 30
+  regenerate:
+    cost: 25
+    cooldown: 15
+
+# Shop Settings
+shop:
+  leapUpgradePrice: 50
+  shieldUpgradePrice: 75
+  teleportUpgradePrice: 100
+
+# General Settings
+game:
+  maxPlayers: 16        # Maximum number of players per game
+  soloMode: true        # Whether the game should be in solo mode
+  teamMode: true        # Whether team mode should be enabled
+  roundTimeLimit: 600   # Time limit for each round in seconds
